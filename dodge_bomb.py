@@ -87,6 +87,7 @@ def main():
             vx *= -1
         if not tate:  # 上下どちらかにはみ出ていたら
             vy *= -1
+        
         screen.blit(bb_img, bb_rct)
         pg.display.update()
         tmr += 1
